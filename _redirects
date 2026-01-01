@@ -1,0 +1,9 @@
+# Redirects for Cloudflare Pages
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Redirect www to apex domain
+https://www.myretail.coupons/* https://myretail.coupons/:splat 301
+
+# Handle common paths
+/home /
+/waitlist /#waitlist
